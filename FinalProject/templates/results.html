@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Results</title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css">
+</head>
+<body>
+<div class="found"> <center>
+    <h1>Recipes Found:</h1>
+    <h4>Here are some dishes you could make...</h4>
+    <h4>Click on a dish to see its full recipe</h4>
+    <center>
+</div>
+<ul> <center>
+    {% for recipe in recipes %}
+    <div class="recipe-box">
+        <li><a href="/recipe/{{ loop.index0 }}?recipes={{ recipes }}" target="_blank">{{ recipe[0] }}</a></li>
+    </div>
+    {% endfor %}
+</center>
+</ul>
+</body>
+</html>

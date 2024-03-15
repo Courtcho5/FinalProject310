@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ recipe_label }}</title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css">
+</head>
+<body>
+<h1>
+    <center>{{ recipe_label }}</center>
+</h1> <center>
+<div class="ingredients">
+    <h2>Ingredients:</h2>
+    <ul>
+        {% for ingredient in ingredients %}
+        <li>{{ ingredient }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ recipe_url }}" target="_blank">View Full Recipe</a>
+</div> <center>
+</body>
+</html>

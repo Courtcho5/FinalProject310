@@ -1,0 +1,79 @@
+body {
+    font-family: "Leelawadee UI", sans-serif;
+    background-color: rgba(201, 248, 81, 0.68);
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    max-width: 5000px;
+    margin-left: 5%;
+}
+
+.mainpageleft {
+    max-width: 800px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.mainpageleft img {
+    float: right;
+
+}
+
+.mainpageleft h1 {
+    font-size: xxx-large;
+}
+
+.first-h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.second-h1 {
+    margin-top: 0px;
+}
+
+.search-input {
+    width: 700px;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #c9f851;
+    border-radius: 30px;
+    outline: none;
+}
+
+.search-button {
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #813752;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+.recipe-box {
+    width: 500px;
+    border: 1px solid rgba(208, 0, 255, 0.34);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(208, 0, 255, 0.34)
+}
+
+.ingredients {
+    margin-left: 20px;
+    width: 500px;
+    border: 1px solid rgba(208, 0, 255, 0.34);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(208, 0, 255, 0.34)
+}
+
+.found {
+    margin-left: 2%;
+}
